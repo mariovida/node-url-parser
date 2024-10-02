@@ -76,7 +76,7 @@ If no arguments are provided to the script (no path to the file), the applicatio
 
 3. **Upload a `.txt` file using the web interface that contains URLs formatted like this:**
 
-A sample file (`testing-urls.txt`) is provided in the root of the project for testing purposes. It contains various cases of URLs and escaped characters to help quickly test the application.
+A sample file (`testing-urls.txt`) is provided in the root of the project for <b><u>testing purposes</u></b>. It contains various cases of URLs and escaped characters to help quickly test the application.
 
 ```bash
 [https://www.google.com]
