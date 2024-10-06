@@ -59,7 +59,7 @@ If no arguments are provided to the script (no path to the file), the applicatio
 
     echo "[https://example.com] [www.google.com]" | node src/parser.js
 
-### ️3. Web usage
+### ️3. Web usage (Extra case - added for user convenience)
 
 1. **Start the server:**
 
