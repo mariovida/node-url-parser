@@ -87,6 +87,7 @@ button[type="submit"] {
 }
 #results {
   min-height: 24px;
+  padding: 8px;
   color: #f0f6fc;
   background-color: #151b23;
 }
