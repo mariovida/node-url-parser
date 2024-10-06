@@ -31,20 +31,20 @@ body {
 .wrapper {
   max-width: 960px;
   padding: 0 1rem;
-  margin: 0 auto;
+  margin: 60px auto 80px auto;
 }
 .box {
-  margin-top: 60px;
   padding: 24px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   border-radius: 12px;
 }
 h1,
-h2 {
+h2,
+p {
   cursor: default;
 }
 h1 {
-  font-size: 32px;
+  font-size: 28px;
   font-weight: 600;
   margin-bottom: 12px;
 }
