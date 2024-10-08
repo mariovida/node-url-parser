@@ -27,6 +27,21 @@ body {
   position: relative;
   min-height: 100vh;
   color: #222222;
+  background-color: #f2f2f2;
+}
+header {
+  display: none; /* Change to flex to show it */
+  align-items: center;
+  justify-content: space-between;
+  height: 40px;
+  background-color: #007aba;
+  padding: 0 16px;
+}
+header p,
+header a {
+  font-size: 13px;
+  line-height: 16px;
+  color: #f0f6fc;
 }
 .wrapper {
   max-width: 960px;
@@ -35,6 +50,7 @@ body {
 }
 .box {
   padding: 24px;
+  background-color: #ffffff;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   border-radius: 12px;
 }

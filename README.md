@@ -1,4 +1,4 @@
-# URL Parser Application
+# URL Parser application
 
 ## Overview
 
