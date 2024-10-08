@@ -15,10 +15,10 @@ This is a Node.js-based web application that allows users to upload text files c
 ### Technologies
 
 - **Node.js**: JavaScript runtime for building the server.
-- **Express.js**: Web framework for handling HTTP requests.
-- **Multer**: Middleware for handling file uploads.
 - **Axios**: Promise-based HTTP client for making requests to URLs.
 - **Crypto**: Built-in module for hashing email addresses.
+- **Express.js**: Web framework for handling HTTP requests.
+- **Multer**: Middleware for handling file uploads.
 
 ### Installation
 
