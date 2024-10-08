@@ -36,7 +36,7 @@ This is a Node.js-based web application that allows users to upload text files c
    ```
 
 3. **Set up the environment:**
-   Create a .env file in the root of your project:
+   Create a .env file in the root of the project:
 
    ```bash
    IM_SECRET=secret_key
