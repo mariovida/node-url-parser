@@ -6,11 +6,11 @@ This is a Node.js-based web application that allows users to upload text files c
 
 ### Features
 
-- **File upload**: Users can upload `.txt` files containing URLs.
 - **URL parsing**: Automatically extracts URLs from the uploaded files.
 - **HTTP requests**: Makes HTTP requests to the URLs to retrieve titles and email addresses.
 - **Structured output**: Returns results in a readable format.
 - **Error handling**: Gracefully handles errors related to file uploads, invalid URLs, and HTTP requests.
+- **File upload**: Users can upload `.txt` files containing URLs.
 
 ### Technologies
 
