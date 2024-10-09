@@ -2,6 +2,8 @@
 
 This is a Node.js-based web application that allows users to upload text files containing URLs. The application parses these URLs to extract information such as page titles and email addresses. The results are presented in a structured format, making it easy for users to view and analyze the data.
 
+![Web interface screenshot](web_interface.png)
+
 ### Features
 
 - **URL parsing**: Automatically extracts URLs from the uploaded files.
