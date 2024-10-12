@@ -25,8 +25,8 @@ This is a Node.js-based web application that allows users to upload text files c
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/your-repo.git
-   cd your-repo
+   git clone https://github.com/mariovida/node-url-parser.git
+   cd node-url-parser
    ```
 
 2. **Install dependencies:**
