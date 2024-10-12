@@ -12,7 +12,7 @@ This is a Node.js-based web application that allows users to upload text files c
 - **Structured output**: Returns results in a readable format.
 - **Error handling**: Gracefully handles errors related to file uploads, invalid URLs, and HTTP requests.
 
-### Technologies Used
+### Technologies
 
 - **Node.js**: JavaScript runtime for building the server.
 - **Express.js**: Web framework for handling HTTP requests.
@@ -40,6 +40,7 @@ This is a Node.js-based web application that allows users to upload text files c
 
    ```bash
    IM_SECRET=secret_key
+   PORT=3000
    ```
 
 ## ⚡ Running the application
