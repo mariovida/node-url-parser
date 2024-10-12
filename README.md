@@ -44,7 +44,7 @@ This is a Node.js-based web application that allows users to upload text files c
 
 ## Running the application
 
-### Direct Command-Line Usage
+### ◻️ Direct Command-Line Usage
 
 Place the `.txt` file (e.g., `testing_urls.txt`) in the root directory or any accessible directory and run the following command:
 `bash
@@ -53,7 +53,7 @@ Place the `.txt` file (e.g., `testing_urls.txt`) in the root directory or any ac
 
 The application will process the specified file and output the results directly to the console.
 
-### Web Interface Usage
+### ◻️ Web Interface Usage
 
 1. **Start the server:**
 
