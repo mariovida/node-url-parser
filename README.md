@@ -48,9 +48,7 @@ This is a Node.js-based web application that allows users to upload text files c
 
 Place the `.txt` file (e.g., `testing_urls.txt`) in the root directory or any accessible directory and run the following command:
 
-    ```console
     node src/parser.js path/to/testing_urls.txt
-    ```
 
 The application will process the specified file and output the results directly to the console.
 
