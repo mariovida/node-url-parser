@@ -4,13 +4,13 @@
 
 This is a Node.js-based web application that allows users to upload text files containing URLs. The application parses these URLs to extract information such as page titles and email addresses. The results are presented in a structured format, making it easy for users to view and analyze the data.
 
-### Key Features
+### Features
 
-- **File Upload**: Users can upload `.txt` files containing URLs.
-- **URL Parsing**: Automatically extracts URLs from the uploaded files.
-- **HTTP Requests**: Makes HTTP requests to the URLs to retrieve titles and email addresses.
-- **Structured Output**: Returns results in a clean, readable format.
-- **Error Handling**: Gracefully handles errors related to file uploads, invalid URLs, and HTTP requests.
+- **File upload**: Users can upload `.txt` files containing URLs.
+- **URL parsing**: Automatically extracts URLs from the uploaded files.
+- **HTTP requests**: Makes HTTP requests to the URLs to retrieve titles and email addresses.
+- **Structured output**: Returns results in a readable format.
+- **Error handling**: Gracefully handles errors related to file uploads, invalid URLs, and HTTP requests.
 
 ### Technologies Used
 
