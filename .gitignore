@@ -2,6 +2,7 @@
 node_modules
 testing.txt
 
-src/
+src/*
+!src/utils.js
 tests/
 server.js
