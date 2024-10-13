@@ -42,9 +42,9 @@ This is a Node.js-based web application that allows users to upload text files c
    IM_SECRET=secret_key
    ```
 
-### Running the application
+## Running the application
 
-#### Direct Command-Line Usage
+### Direct Command-Line Usage
 
 Place the `.txt` file (e.g., `testing_urls.txt`) in the root directory or any accessible directory and run the following command:
 `bash
@@ -53,6 +53,8 @@ Place the `.txt` file (e.g., `testing_urls.txt`) in the root directory or any ac
 
 The application will process the specified file and output the results directly to the console.
 
+### Web Interface Usage
+
 1. **Start the server:**
 
    ```bash
@@ -60,3 +62,13 @@ The application will process the specified file and output the results directly 
    ```
 
 2. **Open web browser and navigate to http://localhost:3000**
+
+3. **Upload a `.txt` file using the web interface that contains URLs formatted like this:**
+
+   ```bash
+   [https://example.com]
+   [www.google.com]
+   Some random text [http://www.wikipedia.org] more text here.
+   ```
+
+The application will parse the uploaded file, make HTTP requests to the URLs and display the results in a structured format on the web page.
