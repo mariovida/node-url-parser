@@ -45,7 +45,7 @@ This is a Node.js-based web application that allows users to upload text files c
 
 ## ⚡ Running the application
 
-### ◻️ Direct Command-Line Usage
+### ️1. Direct command-line usage
 
 Place the `.txt` file (e.g., `testing_urls.txt`) in the root directory or any accessible directory and run the following command:
 
@@ -53,7 +53,13 @@ Place the `.txt` file (e.g., `testing_urls.txt`) in the root directory or any ac
 
 The application will process the specified file and output the results directly to the console.
 
-### ◻️ Web Interface Usage
+### ️2. Direct command-line usage
+
+If no arguments are provided to the script (no path to the file), the application will read input from the standard input (stdin) stream. For example, you can run:
+
+    echo "[https://example.com] [www.google.com]" | node src/parser.js
+
+### ️3. Web usage
 
 1. **Start the server:**
 
