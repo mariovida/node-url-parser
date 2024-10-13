@@ -20,6 +20,34 @@ This is a Node.js-based web application that allows users to upload text files c
 - **Axios**: Promise-based HTTP client for making requests to URLs.
 - **Crypto**: Built-in module for hashing email addresses.
 
-### Getting Started
+### Installation
 
-To get started with this project, please refer to the [Usage Instructions](usage.md).
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/your-username/your-repo.git
+   cd your-repo
+   ```
+
+2. **Install dependencies:**
+
+   ```bash
+   npm install
+   ```
+
+3. **Set up the environment:**
+   Create a .env file in the root of your project:
+
+   ```bash
+   IM_SECRET=secret_key
+   ```
+
+## Running the application
+
+1. **Start the server:**
+
+   ```bash
+   node server.js
+   ```
+
+2. **Open web browser and navigate to http://localhost:3000**
