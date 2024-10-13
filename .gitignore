@@ -3,6 +3,5 @@ node_modules
 testing.txt
 
 src/
-public/
 tests/
 server.js

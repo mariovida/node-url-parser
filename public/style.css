@@ -1,0 +1,109 @@
+@font-face {
+  font-family: ff-primary;
+  src: url(./fonts/Outfit-Regular.ttf);
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: ff-primary;
+  src: url(./fonts/Outfit-Medium.ttf);
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: ff-primary;
+  src: url(./fonts/Outfit-SemiBold.ttf);
+  font-weight: 600;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: ff-primary;
+  font-weight: 400;
+  position: relative;
+  min-height: 100vh;
+  color: #222222;
+}
+.wrapper {
+  max-width: 960px;
+  padding: 0 1rem;
+  margin: 0 auto;
+}
+.box {
+  margin-top: 60px;
+  padding: 24px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 12px;
+}
+h1,
+h2 {
+  cursor: default;
+}
+h1 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+h2 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 40px;
+  margin-bottom: 8px;
+}
+#loadingIndicator {
+  display: none;
+  margin-bottom: 8px;
+  font-size: 18px;
+  color: #151b23;
+}
+#uploadForm {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 32px;
+}
+input[type="file"] {
+  margin-bottom: 16px;
+  padding: 16px 24px;
+  border: 2px solid #007aba;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button[type="submit"] {
+  font-family: ff-primary;
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  color: #f0f6fc;
+  background-color: #007aba;
+  padding: 6px 12px;
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#results {
+  min-height: 24px;
+  color: #f0f6fc;
+  background-color: #151b23;
+}
+#copyButton {
+  display: none;
+  font-family: ff-primary;
+  font-weight: 500;
+  font-size: 15px;
+  margin-bottom: 16px;
+  padding: 6px 12px;
+  background-color: #007aba;
+  color: #f0f6fc;
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+#copyButton:hover {
+  background-color: #006399;
+}
