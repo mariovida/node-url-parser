@@ -42,7 +42,7 @@ This is a Node.js-based web application that allows users to upload text files c
    IM_SECRET=secret_key
    ```
 
-## Running the application
+### Running the application
 
 1. **Start the server:**
 
