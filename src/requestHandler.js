@@ -5,7 +5,7 @@ require("dotenv").config();
 
 function logError(message) {
   if (process.env.ERROR_LOG === "true") {
-    console.error(message); // Only log error if ERROR_LOG is set to true
+    console.error(message); // Logging error if ERROR_LOG is set to true
   }
 }
 

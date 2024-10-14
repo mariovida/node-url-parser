@@ -77,22 +77,21 @@ If no arguments are provided to the script (no path to the file), the applicatio
 3. **Upload a `.txt` file using the web interface that contains URLs formatted like this:**
 
    ```bash
-    [https://www.google.com]
-    [http://example.com]
-    [www.wikipedia.org]
-    Valid URL with WWW: [www.github.com]
+   [https://www.google.com]
+   [http://example.com]
+   [www.wikipedia.org]
+   Valid URL with WWW: [www.github.com]
 
-    Nested URL: [Another page [www.example.com] is here]
-    Another nested example: [Outer text [https://www.reddit.com] Inner text]
+   Nested URL: [Another page [www.example.com] is here]
+   Another nested example: [Outer text [https://www.reddit.com] Inner text]
 
-    Text with valid URLs: Some random text [https://www.twitter.com] and [http://www.facebook.com] in between.
-    More text [www.microsoft.com] with another example.
+   Some random text [https://www.twitter.com] and [http://www.facebook.com] in between.
+   More text [www.microsoft.com] with various examples.
 
-    Some text for www: [www.stackoverflow.com]
-    Invalid URL [https://www.example.com/search?q=testing space] that was.
-    Test with escaped brackets: asdf \[https://www.youtube.com]
+   Case with [www.stackoverflow.com] and \[https://google.com]
+   Test with escaped brackets: asdf \[https://www.youtube.com]
 
-    Another invalid URL: [https://thisurldoesnotexist12345.com]
+   Invalid URL: [https://thisurldoesnotexist12345.com]
    ```
 
 The application will parse the uploaded file, make HTTP requests to the URLs and display the results in a structured format on the web page.
