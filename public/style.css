@@ -25,7 +25,6 @@ body {
   font-family: ff-primary;
   font-weight: 400;
   position: relative;
-  min-height: 100vh;
   color: #222222;
   background-color: #f2f2f2;
 }
@@ -33,9 +32,10 @@ header {
   display: none; /* Change to flex to show it */
   align-items: center;
   justify-content: space-between;
-  height: 40px;
+  height: 50px;
   background-color: #007aba;
   padding: 0 16px;
+  box-shadow: 0 5px 2px -2px rgba(0, 0, 0, 0.2);
 }
 header p,
 header a {
@@ -46,16 +46,16 @@ header a {
 .wrapper {
   max-width: 960px;
   padding: 0 1rem;
-  margin: 60px auto 80px auto;
+  margin: 0 auto;
 }
 .box {
   padding: 24px;
+  margin-top: 60px;
   background-color: #ffffff;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   border-radius: 12px;
 }
 h1,
-h2,
 p {
   cursor: default;
 }
@@ -64,17 +64,12 @@ h1 {
   font-weight: 600;
   margin-bottom: 12px;
 }
-h2 {
-  font-size: 20px;
-  font-weight: 500;
-  margin-top: 40px;
-  margin-bottom: 8px;
-}
 #loadingIndicator {
   display: none;
   margin-bottom: 8px;
   font-size: 18px;
   color: #151b23;
+  cursor: default;
 }
 #uploadForm {
   display: flex;
@@ -105,6 +100,8 @@ button[type="submit"] {
 }
 #result-box {
   display: none;
+  margin-top: 40px;
+  margin-bottom: 80px;
 }
 #results {
   min-height: 24px;
