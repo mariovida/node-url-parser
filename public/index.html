@@ -31,17 +31,20 @@
         </form>
       </div>
 
-      <h2>RESULTS</h2>
+      <div id="result-box">
+        <h2>RESULTS</h2>
 
-      <button id="copyButton">Copy results</button>
-      <div id="loadingIndicator">Processing... Please wait.</div>
-      <pre id="results"></pre>
+        <button id="copyButton">Copy results</button>
+        <div id="loadingIndicator">Processing... Please wait.</div>
+        <pre id="results"></pre>
+      </div>
     </div>
 
     <script>
       document.getElementById("uploadForm").onsubmit = async (event) => {
         event.preventDefault();
         const formData = new FormData(event.target);
+        document.getElementById("result-box").style.display = "block";
         document.getElementById("loadingIndicator").style.display = "block";
 
         try {

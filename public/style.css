@@ -103,6 +103,9 @@ button[type="submit"] {
   border-radius: 4px;
   cursor: pointer;
 }
+#result-box {
+  display: none;
+}
 #results {
   min-height: 24px;
   padding: 8px;
