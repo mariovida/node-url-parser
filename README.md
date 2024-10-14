@@ -7,7 +7,7 @@ This is a Node.js-based web application that allows users to upload text files c
 - **URL parsing**: Automatically extracts URLs from the uploaded files.
 - **HTTP requests**: Makes HTTP requests to the URLs to retrieve titles and email addresses.
 - **Structured output**: Returns results in a readable format.
-- **Error handling**: Gracefully handles errors related to file uploads, invalid URLs, and HTTP requests.
+- **Error handling**: Gracefully handles errors related to file uploads, invalid URLs and HTTP requests.
 - **File upload**: Users can upload `.txt` files containing URLs.
 
 ### Technologies
@@ -41,7 +41,10 @@ This is a Node.js-based web application that allows users to upload text files c
    ```bash
    IM_SECRET=secret_key
    PORT=3000
+   ERROR_LOG=true # Set to 'true' to enable error logging in the console, 'false' or omit to disable
    ```
+
+💡 Errors can be displayed in the console if the environment variable `ERROR_LOG=true` is set.
 
 <hr/>
 
