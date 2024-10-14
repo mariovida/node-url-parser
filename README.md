@@ -41,7 +41,7 @@ This is a Node.js-based web application that allows users to upload text files c
    ```bash
    IM_SECRET=secret_key
    PORT=3000
-   ERROR_LOG=true # Set to 'true' to enable error logging in the console, 'false' or omit to disable
+   ERROR_LOG=true # Set to true to enable error logging in the console, false or omit to disable
    ```
 
 💡 Errors can be displayed in the console if the environment variable `ERROR_LOG=true` is set.
