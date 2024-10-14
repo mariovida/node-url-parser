@@ -83,6 +83,7 @@ h2 {
   margin-top: 32px;
 }
 input[type="file"] {
+  width: -webkit-fill-available;
   margin-bottom: 16px;
   padding: 16px 24px;
   border: 2px solid #007aba;
@@ -90,6 +91,7 @@ input[type="file"] {
   cursor: pointer;
 }
 button[type="submit"] {
+  align-self: flex-end;
   font-family: ff-primary;
   font-weight: 500;
   font-size: 15px;
