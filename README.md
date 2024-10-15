@@ -5,14 +5,6 @@ This is a Node.js-based application that processes text files containing URLs. I
 ![Web interface screenshot](web_interface.png)
 <em>Web interface screenshot (Running the application -> 3. Web usage)</em>
 
-### Features
-
-- **URL parsing**: Automatically extracts URLs from the uploaded files.
-- **HTTP requests**: Makes HTTP requests to the URLs to retrieve titles and email addresses.
-- **Structured output**: Returns results in a readable format.
-- **Error handling**: Gracefully handles errors related to file uploads, invalid URLs and HTTP requests.
-- **File upload**: Users can upload `.txt` files containing URLs.
-
 ### Technologies
 
 - **Node.js**: JavaScript runtime for building the server.
