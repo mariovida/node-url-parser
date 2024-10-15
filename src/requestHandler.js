@@ -23,8 +23,8 @@ async function handleRequest(url) {
 
     // Retrying again after one minute
     logError(`Retrying ${url} in 1 minute...`);
-    // IMPORTANT: Change from 2000 back to 60000 after I finish testing
-    await delay(2000); // Wait for 1 minute
+    // HINT: Change delay to 2000 for testing
+    await delay(60000); // Wait for 1 minute
 
     try {
       const retryResponse = await axios.get(url); // Retrying the request
