@@ -3,8 +3,8 @@
 [www.wikipedia.org]
 Valid URL with WWW: [www.github.com]
 
-Nested URL: [Another page [www.example.com] is here]
-Another nested example: [Outer text [https://www.reddit.com] Inner text]
+Multiple URLs [Another page www.example.com is here and here https://youtube.com]
+Another nested example: [Outer text www.example.com and [https://www.reddit.com] Inner text]
 
 Some random text [https://www.twitter.com] and [http://www.facebook.com] in between.
 More text [www.microsoft.com] with various examples.
