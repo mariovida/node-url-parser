@@ -73,24 +73,6 @@ If no arguments are provided to the script (no path to the file), the applicatio
 
 A sample file (`testing-urls.txt`) is provided in the root of the project for <b>testing purposes</b>. It contains various cases of URLs and escaped characters to help quickly test the application.
 
-```bash
-[https://www.google.com]
-[http://example.com]
-[www.wikipedia.org]
-Valid URL with WWW: [www.github.com]
-
-Nested URL: [Another page [www.example.com] is here]
-Another nested example: [Outer text [https://www.reddit.com] Inner text]
-
-Some random text [https://www.twitter.com] and [http://www.facebook.com] in between.
-More text [www.microsoft.com] with various examples.
-
-Case with [www.stackoverflow.com] and \[https://google.com]
-Test with escaped brackets: asdf \[https://www.youtube.com]
-
-Invalid URL: [https://thisurldoesnotexist12345.com]
-```
-
 The application will parse the uploaded file, make HTTP requests to the URLs and display the results in a structured format on the web page.
 
 <hr/>
