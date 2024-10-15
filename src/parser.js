@@ -46,6 +46,7 @@ async function main() {
   // Handling URLs if reading from a file
   if (urls) {
     await handleUrls(urls);
+    process.exit(0);
   }
 }
 

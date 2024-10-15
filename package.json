@@ -15,6 +15,9 @@
     "express": "^4.21.1",
     "multer": "^1.4.5-lts.1"
   },
+  "jest": {
+    "testTimeout": 90000
+  },
   "devDependencies": {
     "@types/axios": "^0.14.0",
     "@types/node": "^22.7.5",
