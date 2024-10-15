@@ -6,8 +6,10 @@ function parseFile(fileContent) {
   let currentContent = "";
   let escapeNext = false;
 
+  const normalizedContent = fileContent.replace(/\s+/g, " ");
+
   for (let i = 0; i < fileContent.length; i++) {
-    const char = fileContent[i];
+    const char = normalizedContent[i];
 
     // Handling escape character
     if (escapeNext) {
