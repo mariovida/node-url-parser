@@ -1,6 +1,6 @@
 # URL Parser application
 
-This is a Node.js-based web application that allows users to upload text files containing URLs. The application parses these URLs to extract information such as page titles and email addresses. The results are presented in a structured format, making it easy for users to view and analyze the data.
+This is a Node.js-based application that processes text files containing URLs. It parses these URLs to extract information such as page titles and email addresses. The results are displayed in a structured format via the command line for easy viewing. Additionally, the application also includes a web interface that allows users to upload `.txt` files for URL parsing.
 
 ![Web interface screenshot](web_interface.png)
 <em>Web interface screenshot (Running the application -> 3. Web usage)</em>
