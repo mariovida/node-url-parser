@@ -92,3 +92,19 @@ Invalid URL: [https://thisurldoesnotexist12345.com]
 ```
 
 The application will parse the uploaded file, make HTTP requests to the URLs and display the results in a structured format on the web page.
+
+<hr/>
+
+### 🧪 Testing
+
+This project uses **Jest** as the testing framework to ensure the functionality and reliability of the URL Parser application.
+
+To run the test suite, execute the following command in terminal:
+
+```bash
+npx jest
+```
+
+Jest will run the tests and output the results in the terminal. If all tests pass, a summary indicating success will be displayed. If any tests fail, Jest will provide details about the failed tests, including error messages and stack traces.
+
+The `tests/parser.test.js` file contains unit tests for the URL parsing functionality. These tests ensure that valid URLs are correctly extracted from input strings and that edge cases are handled properly.
