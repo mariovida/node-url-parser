@@ -89,4 +89,6 @@ npx jest
 
 Jest will run the tests and output the results in the terminal. If all tests pass, a summary indicating success will be displayed. If any tests fail, Jest will provide details about the failed tests, including error messages and stack traces.
 
-The `tests/parser.test.js` file contains unit tests for the URL parsing functionality. These tests ensure that valid URLs are correctly extracted from input strings and that edge cases are handled properly.
+The `tests/parser.test.js` file contains <b>unit tests for the URL parsing functionality</b>. These tests ensure that valid URLs are correctly extracted from input strings and that edge cases are handled properly.
+
+The `tests/integration.test.js` file includes <b>integration test that verifies the overall functionality of the application</b>, simulating how the application will behave when processing real input. This test checks for correct URL parsing and error handling when invalid URL is encountered.
